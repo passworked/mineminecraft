@@ -1,0 +1,1 @@
+give @s minecraft:diamond_pickaxe{Enchantments:[{id:"silk_touch",lvl:1}],Unbreakable:1b} 1
