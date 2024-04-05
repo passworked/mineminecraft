@@ -6,7 +6,7 @@ difficulty hard
 
 scoreboard objectives remove mineScore
 scoreboard objectives add mineScore dummy
-scoreboard objectives modify mineScore displayname {"text":"挖煤排行","bold": true,"color": "red"}
+scoreboard objectives modify mineScore displayname {"text":"挖矿排行","bold": true,"color": "red"}
 scoreboard objectives add playerKillCount playerKillCount
 scoreboard objectives add since_last_death minecraft.custom:time_since_death
 scoreboard objectives add Timer dummy
@@ -32,7 +32,7 @@ item replace entity @a hotbar.4 with baked_potato 32
 item replace entity @a hotbar.5 with water_bucket
 
 title @a title {"text": "游戏开始","color": "red","bold":true}
-title @a subtitle {"text": "尽可能获取更多煤炭吧","color": "blue","bold":false}
+title @a subtitle {"text": "尽可能获取更多矿物吧","color": "blue","bold":false}
 
 effect give @a night_vision infinite 0 true
 gamerule keepInventory true
