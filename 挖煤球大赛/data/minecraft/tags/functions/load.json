@@ -1,5 +1,5 @@
 {
     "values": [
-      "mining_coal:setup","mining_coal:shop/shop_price"
+      "mining_coal:setup","mining_coal:shop/shop_price","mining_coal:mine_list/power"
     ]
   }

@@ -1,5 +1,5 @@
 {
     "values": [
-      "mining_coal:main/convert_coal_to_score","mining_coal:main/handle_kill","mining_coal:timer/time_update","mining_coal:end"
+      "mining_coal:mine_list/convert_mine_to_score","mining_coal:main/handle_kill","mining_coal:timer/time_update","mining_coal:end"
     ]
   }

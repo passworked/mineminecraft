@@ -4,16 +4,15 @@ gamemode survival @a
 clear @a
 difficulty hard
 
-scoreboard objectives remove coalScore
-scoreboard objectives add coalScore dummy
-scoreboard objectives modify coalScore displayname {"text":"挖煤排行","bold": true,"color": "red"}
-scoreboard objectives add coalPickup minecraft.picked_up:minecraft.coal
+scoreboard objectives remove mineScore
+scoreboard objectives add mineScore dummy
+scoreboard objectives modify mineScore displayname {"text":"挖煤排行","bold": true,"color": "red"}
 scoreboard objectives add playerKillCount playerKillCount
 scoreboard objectives add since_last_death minecraft.custom:time_since_death
 scoreboard objectives add Timer dummy
 scoreboard players set @a Timer 24000
-scoreboard objectives setdisplay sidebar coalScore 
-scoreboard players set @a coalScore 0
+scoreboard objectives setdisplay sidebar mineScore 
+scoreboard players set @a mineScore 0
 
 bossbar add minecraft:timer {"text": "剩余时间","bold": true,"color": "white"}
 bossbar set timer max 24000
