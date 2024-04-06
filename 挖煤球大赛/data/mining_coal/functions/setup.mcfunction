@@ -1,8 +1,11 @@
-execute as @s run worldborder center ~ ~
+execute at pass run worldborder center ~ ~
 worldborder set 500
 gamemode survival @a
 clear @a
-difficulty hard
+difficulty normal
+time set day
+effect clear @a
+spreadplayers ~ ~ 100 200 false @a
 
 scoreboard objectives remove mineScore
 scoreboard objectives add mineScore dummy
@@ -28,11 +31,11 @@ item replace entity @a hotbar.0 with stone_pickaxe{Unbreakable:1b}
 item replace entity @a hotbar.1 with stone_axe{Unbreakable:1b}
 item replace entity @a hotbar.2 with stone_shovel{Unbreakable:1b}
 item replace entity @a hotbar.3 with stone_hoe{Unbreakable:1b}
-item replace entity @a hotbar.4 with baked_potato 32
-item replace entity @a hotbar.5 with water_bucket
+item replace entity @a hotbar.4 with stone_sword{Unbreakable:1b}
+item replace entity @a hotbar.5 with baked_potato 32
+item replace entity @a hotbar.6 with water_bucket
 
 title @a title {"text": "游戏开始","color": "red","bold":true}
 title @a subtitle {"text": "尽可能获取更多矿物吧","color": "blue","bold":false}
 
-effect give @a night_vision infinite 0 true
 gamerule keepInventory true
