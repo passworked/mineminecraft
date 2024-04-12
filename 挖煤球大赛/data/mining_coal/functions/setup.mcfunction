@@ -13,7 +13,7 @@ scoreboard objectives modify mineScore displayname {"text":"挖矿排行","bold"
 scoreboard objectives add playerKillCount playerKillCount
 scoreboard objectives add since_last_death minecraft.custom:time_since_death
 scoreboard objectives add Timer dummy
-scoreboard players set @a Timer 24000
+scoreboard players set Timer Timer 24000
 scoreboard objectives setdisplay sidebar mineScore 
 scoreboard players set @a mineScore 0
 
