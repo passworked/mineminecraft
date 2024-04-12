@@ -1,1 +1,1 @@
-execute if score @r Timer matches 1 run function mining_coal:ending
+execute if score Timer Timer matches 1 run function mining_coal:ending
