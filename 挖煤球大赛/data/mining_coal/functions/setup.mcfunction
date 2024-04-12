@@ -16,6 +16,11 @@ scoreboard objectives add Timer dummy
 scoreboard players set Timer Timer 24000
 scoreboard objectives setdisplay sidebar mineScore 
 scoreboard players set @a mineScore 0
+scoreboard objectives add Ypos dummy
+scoreboard objectives add Timer_limit1 dummy
+scoreboard objectives add Timer_limit2 dummy
+scoreboard players set Timer Timer_limit1 6000
+scoreboard players set Timer Timer_limit2 1200
 
 bossbar add minecraft:timer {"text": "剩余时间","bold": true,"color": "white"}
 bossbar set timer max 24000
