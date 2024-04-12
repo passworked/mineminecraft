@@ -6,7 +6,7 @@ difficulty normal
 time set day
 effect clear @a
 spreadplayers ~ ~ 100 200 false @a
-
+advancement revoke @a everything
 scoreboard objectives remove mineScore
 scoreboard objectives add mineScore dummy
 scoreboard objectives modify mineScore displayname {"text":"挖矿排行","bold": true,"color": "red"}
